@@ -1,9 +1,9 @@
 # matplotlib-challenge
 
-After the step of learning how to use Pandas to display our data in well organised dataframes matching with our needs.
-In this project we will learn how we can use other libraries to include statistics summary and to draw charts and plots for a  better reading and better analyze: 📊
+In the previous project, we learned how to use Pandas to display our data in well organized dataframes matching our needs.
+In this project we will learn how we can use other libraries to include a statistics summary and to draw charts and plots for better reading and analysis: 📊
 
-In this project, a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. In this study, 249 mice who were identified with SCC tumors received treatment with a range of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, against the other treatment regimens.
+In this project, we will study a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. In this study, 249 mice that were identified with SCC tumors received treatment with a range of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, with the other treatment regimens.
 What we will learn from this project:
 
 - How to generate a Summary Statistics: Mean,	Median, Variance, Standard deviation and Standard error.
@@ -38,7 +38,7 @@ All this information will be used for a subsequent deeper analysis
    
 - Merge our datasets into a single DataFrame.
 
-- Look for the number of unique mice  in the data, and  check for any  duplication of the identifyer (our data is identified by Mouse ID and Timepoint). Clean the DataFrame of the duplicate rows.
+- Look for the number of unique mice in the data, and check for any duplication of the identifyer (our data is identified by Mouse ID and Timepoint). Clear the DataFrame of the duplicate rows.
 
 2. Generate Summary Statistics
    
@@ -46,9 +46,9 @@ All this information will be used for a subsequent deeper analysis
 
 3. Create Bar Charts and Pie Charts
    
-- Generate two bar charts showing the total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.Use the Pandas DataFrame.plot() method and  Matplotlib's pyplot methods.
+- Generate two bar charts showing the total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.Use the Pandas DataFrame.plot() method and Matplotlib's pyplot methods.
 
-- Generate two pie chart showing the distribution of female versus male mice in the study. Use the Pandas DataFrame.plot() method and  Matplotlib's pyplot methods. 
+- Generate two pie charts showing the distribution of female versus male mice in the study. Use the Pandas DataFrame.plot() method and  Matplotlib's pyplot methods. 
 
 4. Calculate Quartiles, Find Outliers, and Create a Box Plot
    
@@ -74,11 +74,11 @@ Tools:
 
 - Pandas: it is a Python library for data manipulation and analysis
 
-- Matplotlib.pyplot:  Matplotlib has a module named pyplot which makes things easy for plotting by providing feature to control line styles, font properties, formatting axes etc. Matplotlib is a python library used to create 2D graphs and plots by using python scripts.
+- Matplotlib.pyplot:  Matplotlib has a module named pyplot which makes things easy for plotting by providing features to control line styles, font properties, formatting axes etc. Matplotlib is a python library used to create 2D graphs and plots by using python scripts.
 
-- scipy.stats: it is a module contains a large number of probability distributions.
+- scipy.stats: it is a module that contains a large number of probability distributions.
 
-- Jupyter Notebook: it is a web-based interactive computing pltaform, allows the user to compile all aspects of a data project.
+- Jupyter Notebook: it is a web-based interactive computing platform that allows the user to compile all aspects of a data project.
 
 Code to generate charts using pyplot methods
 ## Bar Charts
@@ -88,4 +88,4 @@ Code to generate charts using pyplot methods
 ## Scatter Plots
 
 Tip:🪄
-Generate a line plot of tumor volume vs. time point for a single mouse treated with Capomulin
+For a better analysis, generate lines plot of tumor volume vs. time point for more than one mouse treated with Capomulin
