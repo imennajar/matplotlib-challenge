@@ -1,7 +1,7 @@
 # matplotlib-challenge
 
 After the step of learning how to use Pandas to display our data in well organised dataframes matching with our needs.
-In this project we will learn how we can use other libraries to include statistics summary and to draw charts and plots for a  better reading and better analyze: 💹
+In this project we will learn how we can use other libraries to include statistics summary and to draw charts and plots for a  better reading and better analyze: 📊
 
 In this project, a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. In this study, 249 mice who were identified with SCC tumors received treatment with a range of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, against the other treatment regimens.
 What we will learn from this project:
@@ -35,6 +35,7 @@ Calculate correlation and regression.
 All this information will be used for a subsequent deeper analysis
 
 1. Prepare the Data
+   
 - Merge our datasets into a single DataFrame.
 
 - Look for the number of unique mice  in the data, and  check for any  duplication of the identifyer (our data is identified by Mouse ID and Timepoint). Clean the DataFrame of the duplicate rows.
@@ -68,6 +69,7 @@ All this information will be used for a subsequent deeper analysis
 - Plot the linear regression model on top of the previous scatter plot.
 
 Program:
+
 Tools:
 
 - Pandas: it is a Python library for data manipulation and analysis
@@ -78,47 +80,12 @@ Tools:
 
 - Jupyter Notebook: it is a web-based interactive computing pltaform, allows the user to compile all aspects of a data project.
 
-
-
-
-Python script using Pandas:
-Example with grouping by a criteria
-#Calculate the total student count per school
-per_school_counts =pd.DataFrame({'Total Students':school_data_complete.groupby(['school_name'])['Student ID'].count()})
-per_school_counts
-groupby
-
-Example with filtring:
-#Calculate the number of students per school with reading scores of 70 or higher
-students_passing_reading = school_data_complete[(school_data_complete["reading_score"] >= 70)]
-school_students_passing_reading =pd.DataFrame ({'reading scores of 70 or higher':students_passing_reading.groupby('school_name')['reading_score'].size()})        school_students_passing_reading
-filtring
-
-Example with Sorting:
-#Sort the schools by `% Overall Passing` in ascending order and display the top 5 rows.
-bottom_schools = per_school_summary.sort_values('% Overall Passing',ascending=True)
-top_schools["Total students"] = top_schools["Total Students"].map("${:,.0f}".format)
-bottom_schools.head(5) 
-sorting
-
-Example with benning:
-#Establish the bins 
-spending_bins = [0, 585, 630, 645, 680]
-la = ["<$585", "$585-630", "$630-645", "$645-680"]
-
-#Create a copy of the school summary  
-school_spending_df = per_school_summary.copy()
-
-#Categorize spending based on the bins
-school_spending_df['Per Student Budget']=school_budget_capita['per school capita']
-school_spending_df["Spending Ranges (Per Student)"] = pd.cut(school_spending_df['Per Student Budget'],
-                                                     spending_bins, labels=la,include_lowest = True)
-school_spending_df
-binning
+Code to generate charts using pyplot methods
+## Bar Charts
+## Pie Chart
+## Boxplots
+## Line Plot
+## Scatter Plots
 
 Tip:🪄
-Take advantage of the first module, export dataframes to Excel and insert charts or filters to make the analyzis easier. The following is an example of a code to export a dataframe to an Excel spreadsheet:
-
-with pd.ExcelWriter('panda.xlsx')as writer:
-    type_summary.to_excel(writer,sheet_name='Sheet_1')
-  image
+Generate a line plot of tumor volume vs. time point for a single mouse treated with Capomulin
