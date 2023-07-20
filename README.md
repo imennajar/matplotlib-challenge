@@ -88,4 +88,5 @@ Code to generate charts using pyplot methods
 ## Scatter Plots
 
 Tip:🪄
-For a better analysis, generate lines plot of tumor volume vs. time point for more than one mouse treated with Capomulin
+For a better analysis of the result of  Capomulin, generate lines plot of tumor volume vs. time point for more than one mouse treated.
+For a good comparaison between Capomulin and Ramicane, generate a line plot of tumor volume vs. time point for two mice treated by the two different drug regimens
