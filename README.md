@@ -1,74 +1,85 @@
 # matplotlib-challenge
-in this project
 
+After the step of learning how to use Pandas to display our data in well organised dataframes matching with our needs.
+In this project we will learn how we can use other libraries to include statistics summary and to draw charts and plots for a  better reading and better analyze: 💹
 
-
-
-
-
-
-
-
-
-
-
-
-pandas-challenge
-How to use Pandas to read information from a CSV file, manipulate it, and return DataFrames for better analysis: 💿
-In this project we will analyze a city's future school budgets and priorities. Thus we will start by analyzing the district-wide standardized test results, and then we will aggregate the data to showcase obvious trends in school performance using available information on the school.
-
+In this project, a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. In this study, 249 mice who were identified with SCC tumors received treatment with a range of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, against the other treatment regimens.
 What we will learn from this project:
-- How to create dataframes from an existing dataset or from other dataframes
 
-- How to perform the necessary calculations and create a high-level snapshot of the key metrics
+- How to generate a Summary Statistics: Mean,	Median, Variance, Standard deviation and Standard error.
 
-- How to filter, merge, sort, group and bin to enable more vigorous dataset customization
+- How to generate Bar and Pie Charts using Pandas and pyplot
+  
+- How to calculate Quartiles, Find Outliers, and Create a Box Plot
 
-- How to analyze the output Data to make the right decisions
+- How to generate a line plot
+
+- How to generate a scatter plot
+
+- How to calculate the correlation coefficient and a linear regression model 
+
 Instructions:
-District Summary: Performing the necessary calculations and creating a high-level snapshot of the district's key metrics:
 
-- Total number of schools
+Prepare the data.
 
-- Total students
+Generate summary statistics.
 
-- Total budget
+Create bar charts and pie charts.
 
-- Average test scores (Math and Reading)
+Calculate quartiles, find outliers, and create a box plot.
 
-- Passing rates (Math, Reading and both)
+Create a line plot and a scatter plot.
+
+Calculate correlation and regression.
+
 All this information will be used for a subsequent deeper analysis
 
-School Summary: Performing the necessary calculations and summarizing key metrics about each school:
+1. Prepare the Data
+- Merge our datasets into a single DataFrame.
 
- - Total student count per school
+- Look for the number of unique mice  in the data, and  check for any  duplication of the identifyer (our data is identified by Mouse ID and Timepoint). Clean the DataFrame of the duplicate rows.
 
- - Total school budget and per capita spending per school
+2. Generate Summary Statistics
+   
+- Create a DataFrame of summary statistics including:  mean, median, variance, standard deviation, and SEM of the tumor volume.
 
- - Average test scores per school (Math and Reading)
+3. Create Bar Charts and Pie Charts
+   
+- Generate two bar charts showing the total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.Use the Pandas DataFrame.plot() method and  Matplotlib's pyplot methods.
 
- - Passing rates (Math, Reading and both)
+- Generate two pie chart showing the distribution of female versus male mice in the study. Use the Pandas DataFrame.plot() method and  Matplotlib's pyplot methods. 
 
- - Associate all this information with the name and the type of each school
-Sorting the information to organize and analyze data in a more efficient and meaningful way:
+4. Calculate Quartiles, Find Outliers, and Create a Box Plot
+   
+- Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. 
 
-- Sort the schools by the percentage of Overall Passing to analyze the Highest-Performing Schools and the Lowest-Performing Schools 
-Placing values into groups to enable more vigorous dataset customization:
+- Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot.
 
- - Scores by Grade: for students of each grade level (9th, 10th, 11th, 12th) at each school
+5. Create a Line Plot and a Scatter Plot
+   
+- Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
 
- - Scores by School Spending: average spending ranges (per student)
+- Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
 
- - Scores by School Size:  school performance based on school size (small, medium, or large)
+6. Calculate Correlation and Regression
+   
+- Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
 
- - Scores by School Type: school performance based on the type of the school
-Analyzing and make conclusions for batter decisions
+- Plot the linear regression model on top of the previous scatter plot.
 
 Program:
 Tools:
-Pandas, which is a Python library for data manipulation and analysis
 
-Jupyter Notebook, a web-based interactive computing pltaform, allows the user to compile all aspects of a data project.
+- Pandas: it is a Python library for data manipulation and analysis
+
+- Matplotlib.pyplot:  Matplotlib has a module named pyplot which makes things easy for plotting by providing feature to control line styles, font properties, formatting axes etc. Matplotlib is a python library used to create 2D graphs and plots by using python scripts.
+
+- scipy.stats: it is a module contains a large number of probability distributions.
+
+- Jupyter Notebook: it is a web-based interactive computing pltaform, allows the user to compile all aspects of a data project.
+
+
+
 
 Python script using Pandas:
 Example with grouping by a criteria
