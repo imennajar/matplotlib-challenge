@@ -82,11 +82,19 @@ Tools:
 
 Code to generate charts using pyplot methods
 ## Bar Charts
+<img src='bar.png' style ='width:700px;height:300px'/>
 ## Pie Chart
+<img src='pie.png' style ='width:700px;height:300px'/> 
 ## Boxplots
+<img src='box.png' style ='width:700px;height:300px'/>
 ## Line Plot
+<img src='lin1.png' style ='width:700px;height:300px'/>
 ## Scatter Plots
-
+<img src='sca1.png' style ='width:700px;height:300px'/> 
+<img src='sca2.png' style ='width:700px;height:300px'/> 
 Tip:🪄
 For a better analysis of the result of  Capomulin, generate lines plot of tumor volume vs. time point for more than one mouse treated.
+<img src='lin1.png' style ='width:700px;height:300px'/>
+<img src='lin3.png' style ='width:700px;height:300px'/> 
 For a good comparaison between Capomulin and Ramicane, generate a line plot of tumor volume vs. time point for two mice treated by the two different drug regimens
+<img src='lin2.png' style ='width:700px;height:300px'/>
