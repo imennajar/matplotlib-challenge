@@ -4,7 +4,7 @@ In the previous project, we learned how to use Pandas to display our data in wel
 In this project we will learn how we can use other libraries to include a statistics summary and to draw charts and plots for better reading and analysis: 📊
 
 In this project, we will study a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. In this study, 249 mice that were identified with SCC tumors received treatment with a range of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, with the other treatment regimens.
-What we will learn from this project:
+## What we will learn from this project:
 
 - How to generate a Summary Statistics: Mean,	Median, Variance, Standard deviation and Standard error.
 
@@ -18,7 +18,7 @@ What we will learn from this project:
 
 - How to calculate the correlation coefficient and a linear regression model 
 
-Instructions:
+## Instructions:
 
 Prepare the data.
 
@@ -68,9 +68,9 @@ All this information will be used for a subsequent deeper analysis
 
 - Plot the linear regression model on top of the previous scatter plot.
 
-Program:
+## Program:
 
-Tools:
+### Tools:
 
 - Pandas: it is a Python library for data manipulation and analysis
 
@@ -80,8 +80,8 @@ Tools:
 
 - Jupyter Notebook: it is a web-based interactive computing platform that allows the user to compile all aspects of a data project.
 
-Code to generate charts using pyplot methods
-## Bar Charts
+### Code to generate charts using pyplot methods
+#### Bar Charts
 ```
 # Generate a bar plot showing the total number of rows (Mouse ID/Timepoints) for each drug regimen using pyplot.
 
@@ -107,7 +107,7 @@ plt.ylabel('#of Observed Mouse Timepoints \n')
 plt.legend('Mouse ID', loc='upper right', frameon=True)
 <img src='bar.png' style ='width:700px;height:300px'/>
 
-## Pie Chart
+#### Pie Chart
 ```
 # Pie plot showing the distribution of female versus male mice using pyplot
 mouse_gender = study_result_complete["Sex"].value_counts()
@@ -127,9 +127,9 @@ plt.ylabel('Sex')
 
 <img src='pie.png' style ='width:700px;height:300px'/> 
 
-## Boxplots
+#### Boxplots
+```
 # Box plot 
- ```
 fig,ax = plt.subplots(figsize =(10, 7))
 prop = dict(markerfacecolor='y', markersize=10,markeredgecolor='r')
 ax.boxplot(tumor_vol_data,labels = treatments,flierprops=prop)
@@ -140,7 +140,7 @@ plt.show()
 ```
 <img src='box.png' style ='width:700px;height:300px'/>
 
-## Line Plot
+#### Line Plot
 ```
 # Line plot of tumor volume vs. time point for a single mouse treated with Capomulin
 capomulin_table = study_result_complete.loc[study_result_complete['Drug Regimen'] == 'Capomulin']
@@ -156,7 +156,7 @@ plt.show()
 ```
 <img src='lin1.png' style ='width:700px;height:300px'/>
 
-## Scatter Plots
+#### Scatter Plots
 
 ```
 # Scatter plot of mouse weight vs. the average observed tumor volume for the entire Capomulin regimen
@@ -181,7 +181,7 @@ plt.savefig('scatter.png')
 '''
 <img src='sca1.png' style ='width:700px;height:300px'/> 
 <img src='sca2.png' style ='width:700px;height:300px'/> 
-Tip:🪄
+## Tip:🪄
 For a better analysis of the result of  Capomulin, generate lines plot of tumor volume vs. time point for more than one mouse treated.
 <img src='lin1.png' style ='width:700px;height:300px'/>
 <img src='lin3.png' style ='width:700px;height:300px'/> 
