@@ -173,14 +173,15 @@ mouse_weight = mice_group['Weight (g)']
  #Create scatte rplot 
 plt.scatter(mouse_weight, av_tum, marker='o', facecolors='blue', edgecolors='red',
               s=av_tum, alpha=0.75)
-#title and labels 
+#title and labels
 plt.title( 'mouse weight vs. average tumor volume: Capomulin regimen \n')
 plt.xlabel('Weight (g)')
 plt.ylabel(' Average Tumor volume (mm3)')
 plt.savefig('scatter.png')
-'''
+```
 <img src='sca1.png' style ='width:700px;height:300px'/> 
-<img src='sca2.png' style ='width:700px;height:300px'/> 
+<img src='sca2.png' style ='width:700px;height:300px'/>
+
 ## Tip:🪄
 For a better analysis of the result of  Capomulin, generate lines plot of tumor volume vs. time point for more than one mouse treated.
 <img src='lin1.png' style ='width:700px;height:300px'/>
