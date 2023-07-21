@@ -28,8 +28,6 @@ Create bar charts and pie charts.
 
 Calculate quartiles, find outliers, and create a box plot.
 
-<<<<<<< HEAD
-pandas-challenge
 After the step of lerning how to use Pandas to display our data in dataframes well organised with our needs, in this project we will learn how we can use other libraries to include statistics summary and to drow charts and plots for a  better reading and better analyze: 💿
 In this project we will analyze a city's future school budgets and priorities. This we will start by analyzing the district-wide standardized test results, and then we will aggregate the data to showcase obvious trends in school performance using available information on the school.
 
