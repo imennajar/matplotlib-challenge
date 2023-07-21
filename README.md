@@ -14,11 +14,12 @@ in this project
 
 
 pandas-challenge
-How to use Pandas to read information from a CSV file, manipulate it, and return DataFrames for better analysis: 💿
-In this project we will analyze a city's future school budgets and priorities. Thus we will start by analyzing the district-wide standardized test results, and then we will aggregate the data to showcase obvious trends in school performance using available information on the school.
+After the step of lerning how to use Pandas to display our data in dataframes well organised with our needs, in this project we will learn how we can use other libraries to include statistics summary and to drow charts and plots for a  better reading and better analyze: 💿
+In this project we will analyze a city's future school budgets and priorities. This we will start by analyzing the district-wide standardized test results, and then we will aggregate the data to showcase obvious trends in school performance using available information on the school.
 
 What we will learn from this project:
-- How to create dataframes from an existing dataset or from other dataframes
+
+- How to create Summary Statistics: Mean,	Median, Variance, Standard deviation and Standard error.
 
 - How to perform the necessary calculations and create a high-level snapshot of the key metrics
 
