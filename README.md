@@ -108,8 +108,8 @@ plt.legend('Mouse ID', loc='upper right', frameon=True)
 <img src='bar.png' style ='width:700px;height:300px'/>
 
 ## Pie Chart
-# Pie plot showing the distribution of female versus male mice using pyplot
 ```
+# Pie plot showing the distribution of female versus male mice using pyplot
 mouse_gender = study_result_complete["Sex"].value_counts()
 explode = (0.1,0)
 colors =["blue", "pink"]
