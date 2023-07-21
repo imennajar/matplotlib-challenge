@@ -184,12 +184,12 @@ plt.savefig('scatter.png')
 
 ## Tip:🪄
 
-For a better analysis of the result of  Capomulin, generate lines plot of tumor volume vs. time point for more than one mouse treated.
+For a better analysis of the Capomulin results, generate lines plot of tumor volume vs. time point for more than one mouse treated.
 
 <img src='lin1.png' style ='width:700px;height:300px'/>
 
 <img src='lin3.png' style ='width:700px;height:300px'/> 
 
-For a good comparaison between Capomulin and Ramicane, generate a line plot of tumor volume vs. time point for two mice treated by the two different drug regimens
+For a good comparison between Capomulin and Ramicane, generate a line plot of tumor volume vs. time point for two mice treated wuth the two different drug regimens
 
 <img src='lin2.png' style ='width:700px;height:300px'/>
