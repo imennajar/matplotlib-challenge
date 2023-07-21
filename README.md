@@ -40,7 +40,6 @@ What we will learn from this project:
 Create a line plot and a scatter plot.
 
 Calculate correlation and regression.
->>>>>>> 2458a0069b3c4c0243db6b749c295feb43140cf6
 
 All this information will be used for a subsequent deeper analysis
 
