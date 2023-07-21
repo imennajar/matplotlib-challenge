@@ -191,4 +191,5 @@ For a better analysis of the result of  Capomulin, generate lines plot of tumor 
 <img src='lin3.png' style ='width:700px;height:300px'/> 
 
 For a good comparaison between Capomulin and Ramicane, generate a line plot of tumor volume vs. time point for two mice treated by the two different drug regimens
+
 <img src='lin2.png' style ='width:700px;height:300px'/>
